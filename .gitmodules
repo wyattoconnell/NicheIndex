@@ -1,0 +1,3 @@
+[submodule "niche-index"]
+	path = client
+	url = https://github.com/wyattoconnell/client
