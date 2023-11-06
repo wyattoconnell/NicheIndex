@@ -1,0 +1,115 @@
+.track_item{
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.track__item__img{
+    max-width: 85%;  
+    height: auto;  
+}
+
+.niche_index{
+    text-align: left;
+}
+
+.name_artists{
+    margin-left: 20px;
+    text-align: left;
+    width: 60%;
+}
+
+.niche_index{
+    margin: auto;
+    width: 30%;
+    text-align: left;
+}
+
+.attributes{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.track__item__name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20pt;
+}
+
+.track_artists{
+    font-weight: 400;
+    line-height: 20pt;
+    color: var(--light-grey);
+}
+
+.index{
+    margin: 10px;
+    margin-right: 20px;
+}
+
+@media (max-width: 800px){
+    .song_length{
+        display: none;
+    }
+
+    .album_img{
+        padding-left: 10px;
+    }
+
+    .index{
+        display: none;
+    }
+
+    .track__item__img{
+        max-width: 65%;  
+        margin-right: 0px;
+        height: auto;  
+    }
+
+    .name_artists{
+        margin-left: 0px;
+        width: 50%
+    }
+    
+    .niche_index{
+        width: 25%;
+        margin: none;
+        text-align: right;
+        align-items: right;
+    }
+
+    .track_item{
+        padding: 0px;
+        height: 60px;
+    }
+
+    .track_artists{
+        line-height: 13pt;
+        font-weight: 350;
+        font-size: 13px;
+    }
+
+    .track__item__name{
+        line-height: 13pt;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .attributes{
+        height: 40px;
+        margin-Top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .section__inner{
+        padding-left: 10px;
+    }
+
+}
+
+

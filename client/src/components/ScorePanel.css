@@ -1,0 +1,68 @@
+.panelList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.indexCaption{
+    text-align: right;
+    width: 20%;
+    font-size: 2vw;
+    padding-right: 20px;
+    padding-top: 10%;
+}
+
+.score{
+    color: var(--green);
+    font-size: 15vw;
+    padding-right: 20px;
+}
+
+.total{
+    padding-Top: 11%;
+    color: var(--light-grey);
+    font-size: 5.5vw;
+    padding-right: 0px;
+}
+
+.blurb{
+    width: 40%;
+    line-height: 18pt;
+    padding-left: 50px;
+    border-left: 1px solid var(--light-grey);
+}
+
+.scoreClump{
+    display: flex;
+    padding-right: 50px;
+}
+
+@media (max-width: 800px){
+    .panelList{
+        display: grid;
+    }
+    .scoreClump{
+        padding: 0;
+    }
+    .score{
+        font-size: 20vw;
+    }
+    .total{
+        font-size: 8vw;
+        padding-Top: 9%;
+    }
+    .indexCaption{
+        font-size: 4vw;
+        width: 25%;
+        padding-Top: 7%;
+    }
+    .blurb{
+        width: 100%;
+        border-left: none;
+        padding-left: 0px;
+        padding-Top: 30px;
+        text-align: center;
+    }
+}
